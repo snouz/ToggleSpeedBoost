@@ -1,0 +1,15 @@
+{
+	"name": "ToggleSpeedBoost",
+	"author": "Snouz",
+	"version": "0.0.1",
+	"title": "Toggle Speed Boost",
+	"homepage": "",
+	"description": "",
+	"factorio_version": "1.1",
+	"dependencies": [
+		"base",
+		"(?)TimeButtons",
+		"(?)TimeTools",
+		"(?)Kux-SpeedButtons"
+	]
+}

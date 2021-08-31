@@ -1,0 +1,2 @@
+# ToggleSpeedBoost
+ factorio mod ToggleSpeedBoost
