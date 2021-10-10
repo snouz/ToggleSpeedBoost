@@ -1,7 +1,7 @@
 {
 	"name": "ToggleSpeedBoost",
 	"author": "Snouz",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"title": "Toggle Speed Boost",
 	"homepage": "",
 	"description": "Adds a configurable button to speed the game up.",

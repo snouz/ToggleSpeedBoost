@@ -32,7 +32,9 @@ local function on_gui_click(event)
 	if game.speed <= 1 then	 				-- if another mod button slows down the game, reset button.
 		gamespeedboosted = nil
 		for idx, player in pairs(game.players) do
-			mod_gui.get_button_flow(player).togglespeedboost_button.sprite = "togglespeedboost_off_button"	--update all players buttons
+			if mod_gui.get_button_flow(player).togglespeedboost_button then
+				mod_gui.get_button_flow(player).togglespeedboost_button.sprite = "togglespeedboost_off_button"	--update all players buttons
+			end
 		end
 	elseif game.speed > 1.5 then
 		gamespeedboosted = true
